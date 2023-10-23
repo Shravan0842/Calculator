@@ -1,0 +1,67 @@
+body {
+    background-image: url(calsi.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+#calculator {
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 500px;
+    height: 680px;
+    
+}
+
+#display {
+    font-size: 40px;
+    margin: 33px;
+    width: 86%;
+    height: 60px;
+    background-color: bisque;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1.0);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 95px;
+    height: 90px;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF5722;
+    font-size: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1.0);
+}
+
+.button:active {
+    transform: translateY(2px);
+}
+
+.button:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+p {
+    color: #ffd300;
+    font-size: 29px;
+    margin-left: 8px;
+    margin-right: 188px;
+    margin-top: 15px;
+    font-family: system-ui;
+    font-weight: bold;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 1.0);
+}
